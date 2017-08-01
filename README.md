@@ -65,7 +65,7 @@ Initialize the social-feed plugin:
             instagram:{
                 accounts: ['@teslamotors','#teslamotors'],  //Array: Specify a list of accounts from which to pull posts
                 limit: 2,                                    //Integer: max number of posts to load
-                client_id: 'YOUR_INSTAGRAM_CLIENT_ID'       //String: Instagram client id (optional if using access token)
+                client_id: 'YOUR_INSTAGRAM_CLIENT_ID',       //String: Instagram client id (optional if using access token)
                 access_token: 'YOUR_INSTAGRAM_ACCESS_TOKEN' //String: Instagram access token
             },
 
@@ -98,7 +98,7 @@ $('.social-feed-container').socialfeed({
         accounts: ['@spacex'],                      //Array: Specify a list of accounts from which to pull tweets
         limit: 2,                                   //Integer: max number of tweets to load
         consumer_key: 'YOUR_CONSUMER_KEY',          //String: consumer key. make sure to have your app read-only
-        consumer_secret: 'YOUR_CONSUMER_SECRET_KEY',//String: consumer secret key. make sure to have your app read-only
+        consumer_secret: 'YOUR_CONSUMER_SECRET_KEY' //String: consumer secret key. make sure to have your app read-only
      },
 
     // VK
@@ -119,7 +119,7 @@ $('.social-feed-container').socialfeed({
     instagram:{
         accounts: ['@teslamotors','#teslamotors'],  //Array: Specify a list of accounts from which to pull posts
         limit: 2,                                   //Integer: max number of posts to load
-        client_id: 'YOUR_INSTAGRAM_CLIENT_ID'       //String: Instagram client id (option if using access token)
+        client_id: 'YOUR_INSTAGRAM_CLIENT_ID',       //String: Instagram client id (option if using access token)
         access_token: 'YOUR_INSTAGRAM_ACCESS_TOKEN' //String: Instagram access token
     },
 
